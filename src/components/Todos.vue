@@ -24,18 +24,23 @@
         width: 30%;
         height: 50%;
     }
+    li {
+        margin: 0;
+        padding: 0;
+        text-align: left !important;
+    }
     h3 {
         display: inline;
-        text-align: left !important;
+
         margin-left: 0;
     }
     .alert{
         color: white;
         margin-left: 5px;
-        border-radius: 25px;
+        border-radius: 20px;
         background: #73AD21;
-        padding: 5px;
-        width: 10px;
-        height: 10px;
+        padding: 3px;
+        width: 8px;
+        height: 8px;
     }
 </style>

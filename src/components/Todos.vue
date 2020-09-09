@@ -4,6 +4,7 @@
             <ul>
              <li>{{todo.id}} -- <h3>{{todo.title}}</h3>
                  &nbsp;<span class="alert" v-if="todo.completed == true">Done</span>
+                 &nbsp;<span class="alert-pending" v-else>Pending</span>
              </li>
 
             </ul>
@@ -31,7 +32,6 @@
     }
     h3 {
         display: inline;
-
         margin-left: 0;
     }
     .alert{
@@ -42,5 +42,15 @@
         padding: 3px;
         width: 8px;
         height: 8px;
+    }
+
+    .alert-pending{
+      color: white;
+      margin-left: 5px;
+      border-radius: 20px;
+      background: red;
+      padding: 3px;
+      width: 8px;
+      height: 8px;
     }
 </style>
